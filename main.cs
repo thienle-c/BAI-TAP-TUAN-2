@@ -33,21 +33,33 @@ class Program
                 //    break;
                 case "1":
                     DisplayAll(students);
+                    Console.ReadLine();
+                    Console.Clear();
                     break;
                 case "2":
                     DisplayAge15to18(students);
+                    Console.ReadLine();
+                    Console.Clear();
                     break;
                 case "3":
                     DisplayNameStartWithA(students);
+                    Console.ReadLine();
+                    Console.Clear();
                     break;
                 case "4":
                     DisplayTotalAge(students);
+                    Console.ReadLine();
+                    Console.Clear();
                     break;
                 case "5":
                     DisplayOldestStudents(students);
+                    Console.ReadLine();
+                    Console.Clear();
                     break;
                 case "6":
                     DisplaySortedByAge(students);
+                    Console.ReadLine();
+                    Console.Clear();
                     break;
                 //case "8":
                 //    DisplayHelpSampleLinq(students);
